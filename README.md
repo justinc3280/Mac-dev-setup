@@ -9,8 +9,7 @@ Using the Terminal, follow the steps below.
 ### Download command line tools
 `xcode-select --install`  
 
-### Configure Github SSH key
-[Github - Connect with SSH](https://docs.github.com/en/authentication/connecting-to-github-with-ssh)
+### Configure [Github SSH key](https://docs.github.com/en/authentication/connecting-to-github-with-ssh)
 
 **Create new ssh key**  
 `ssh-keygen -t ed25519 -C "<email>"`
@@ -48,8 +47,7 @@ git config --global user.name "<name>"
 git config --global user.email "<email>"
 ```
 
-### Install Homebrew
-[Homebrew](https://brew.sh)
+### Install [Homebrew](https://brew.sh)
 
 `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
 
@@ -64,8 +62,7 @@ Setup the build environment for Mac OS:
 
 
 ## Setup Python
-### Setup pyenv
-[pyenv](https://github.com/pyenv/pyenv)
+### Setup [pyenv](https://github.com/pyenv/pyenv)
 **Install pyenv**  
 `brew install pyenv`
 
@@ -106,11 +103,23 @@ Deactivate:
 deactivate
 
 ## Setup Javascript
-Setup NPM
-Setup NVM
-	
+**Install [NVM](https://github.com/nvm-sh/nvm#installation-and-update)**  
+`curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.4/install.sh | bash`
 
-Setup zprofile and zshrc
+**Install the latest LTS verions of Node.js**  
+`nvm install --lts`
+
+**Notes on useing NVM**  
+**Show all installed versions**  
+`nmv ls`
+
+Install version of node:  
+`nvm install <version>`
+
+Use a version of node:  
+`nvm use <version>`
+
+## Setup zprofile and zshrc
 	env variables
 	GitHub shortcuts
 
