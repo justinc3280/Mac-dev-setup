@@ -11,3 +11,10 @@ Enter the IAM credentials created in the previous step.
 
 ## Install [SAM CLI](https://docs.aws.amazon.com/serverless-application-model/latest/developerguide/what-is-sam.html)
 `brew install aws/tap/aws-sam-cli`
+
+## Install [Amplify CLI](https://docs.amplify.aws/start/getting-started/installation/q/integration/js/#sign-up-for-an-aws-account)
+
+`npm install -g @aws-amplify/cli`  
+
+Amplify CLI requires rosetta to run on Apple silicon chips  
+`softwareupdate --install-rosetta`
